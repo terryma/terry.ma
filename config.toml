@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Terry Ma"
 theme = "minimal"
 disqusShortname = "coldmochi" # delete this to disable disqus comments
+googleAnalytics = "UA-16954188-3"
 
 [params]
     author = "Terry Ma"
