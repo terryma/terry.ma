@@ -1,42 +1,33 @@
-baseURL = "http://terry.ma/"
+baseURL = "https://terry.ma/"
 languageCode = "en-us"
 title = "Terry Ma"
-theme = "minimal"
-disqusShortname = "coldmochi" # delete this to disable disqus comments
+theme = "hallo"
 googleAnalytics = "UA-16954188-3"
 
+[Author]
+  name = 'Terry'
+
 [params]
-    author = "Terry Ma"
-    description = "❤️ code, startups, VR, bouldering, life"
-    githubUsername = "#terryma"
-    accent = "lightBlue"
-    showBorder = true
-    backgroundColor = "white"
-    font = "Raleway" # should match the name on Google Fonts!
-    highlight = true
-    highlightStyle = "solarized-dark"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+  greeting = "Hello!"
 
-# Social icons to be shown on the right-hand side of the navigation bar
-# The "name" field should match the name of the icon to be used
-# The list of available icons can be found at http://fontawesome.io/icons/
-
-[[menu.icon]]
+  [[params.links]]
+    iconset = "fas"
+    icon = "envelope"
+    title = "E-mail"
     url = "mailto:hi@terry.ma"
-    name = "envelope-o"
-    weight = 1
 
-[[menu.icon]]
+  [[params.links]]
+    icon = 'github'
+    title = 'Github'
     url = "https://github.com/terryma/"
-    name = "github"
-    weight = 2
 
-[[menu.icon]]
+  [[params.links]]
+    icon = 'linkedin'
+    title = 'Linkedin'
     url = "https://www.linkedin.com/in/terryma/"
-    name = "linkedin"
-    weight = 3
 
-[[menu.icon]]
+  [[params.links]]
+    iconset = "fas"
+    icon = 'address-card'
+    title = 'Resume'
     url = "https://terry.ma/resume.pdf"
-    name = "file-text-o"
-    weight = 4

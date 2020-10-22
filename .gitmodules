@@ -5,3 +5,6 @@
 	path = public
 	url = https://github.com/terryma/terryma.github.io.git
 	branch = master
+[submodule "themes/hallo"]
+	path = themes/hallo
+	url = https://github.com/EmielH/hallo-hugo.git
