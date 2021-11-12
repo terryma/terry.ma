@@ -23,11 +23,5 @@ googleAnalytics = "UA-16954188-3"
 
   [[params.links]]
     icon = 'linkedin'
-    title = 'Linkedin'
+    title = 'LinkedIn'
     url = "https://www.linkedin.com/in/terryma/"
-
-  [[params.links]]
-    iconset = "fas"
-    icon = 'address-card'
-    title = 'Resume'
-    url = "https://terry.ma/resume.pdf"
